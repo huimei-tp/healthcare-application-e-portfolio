@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'), // Output - Dynamically generated filenames 
         filename: '[name].[contenthash].js',
-        // publicPath: '/healthcare-application-e-portfolio/', // Adding this make npx webpack serve not work...
+        publicPath: '/healthcare-application-e-portfolio/'
         // publicPath:'/',
         clean: true,
     },
