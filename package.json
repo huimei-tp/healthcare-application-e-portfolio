@@ -13,7 +13,7 @@
     "dev": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --silent --add -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
